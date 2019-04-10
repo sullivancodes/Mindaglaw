@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Activate Bootstrap 3 Carousel via Data Attributes</title>
+<link href="css/carouselStyle.css" type="text/css" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+		<div id="myCarousel" class="carousel container slide">
+			<div class="carousel-inner">
+        		<div class="active item one"></div>
+        		<div class="item two"></div>
+        		<div class="item three"></div>
+			</div>
+		</div>
+	<script type="text/javascript">
+  $(document).ready(function() {
+    $('.carousel').carousel({interval: 7000});
+  });
+</script>
+	
+	
+</body>
+</html>                            
